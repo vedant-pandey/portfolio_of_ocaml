@@ -1,0 +1,6 @@
+(library
+ (name Mantra)
+ (public_name portfolio_of_ocaml.Mantra)
+ (libraries core core_bench)
+ (preprocess
+  (pps ppx_jane)))
