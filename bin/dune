@@ -1,6 +1,6 @@
 (executable
  (public_name portfolio_of_ocaml)
  (name main)
- (libraries portfolio_of_ocaml core core_bench)
+ (libraries portfolio_of_ocaml core core_bench bonsai bonsai.web)
  (preprocess
   (pps ppx_jane ppx_let)))

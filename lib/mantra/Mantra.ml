@@ -1,5 +1,8 @@
 open! Core
 
+(* NOTE: Work In Progress for Mantra library *)
+
+(* NOTE: Syntactically Allowed rules *)
 (* INFIX	::=	(CORE ∣ % ∣ <) { OPERATOR } *)
 (*  	∣	 # { OPERATOR }+ *)
 (* PREFIX	::=	! { OPERATOR } *)
@@ -7,6 +10,8 @@ open! Core
 (* OPERATOR	::=	~ ∣ ! ∣ ? ∣ CORE ∣ % ∣ < ∣ : ∣ . *)
 (* CORE	::=	$ ∣ & ∣ * ∣ + ∣ - ∣ / ∣ = ∣ > ∣ @ ∣ ^ ∣ | *)
 
+(* NOTE: *)
+(* ============AVAILABLE OPERATORS============ *)
 (* "$"  - *)
 (* "&"  - *)
 (* "*"  - *)
@@ -20,7 +25,7 @@ open! Core
 (* "|"  - *)
 (* "%"  - *)
 (* "<"  - *)
-
+(* ============OPERANDS============ *)
 (* List -  *)
 (* Result - *)
 (* Option - *)
@@ -29,12 +34,10 @@ open! Core
 (* String - *)
 (* Print - *)
 (* Array -  *)
-
+(* ============OPERATIONS============ *)
 (* .map *)
 (* .fold *)
 (* .init *)
+(* .bind *)
 
-module Mantra = struct
-  (* List.bind *)
-  (* let ( =>) *)
-end
+module Mantra = struct end

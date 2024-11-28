@@ -7,11 +7,11 @@
 (source
  (github username/reponame))
 
-(authors "Author Name")
+(authors "Vedant Pandey")
 
-(maintainers "Maintainer Name")
+(maintainers "Vedant Pandey")
 
-(license LICENSE)
+(license MIT)
 
 (documentation https://url/to/documentation)
 

@@ -1,0 +1,7 @@
+(library
+ (public_name portfolio_of_ocaml.VCommons)
+ (inline_tests)
+ (name v_commons)
+ (libraries core bonsai)
+ (preprocess
+  (pps ppx_inline_test ppx_jane ppx_let)))
