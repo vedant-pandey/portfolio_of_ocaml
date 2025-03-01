@@ -1,3 +1,0 @@
-(library
- (name portfolio_of_ocaml)
- (libraries core fmt zarith portfolio_of_ocaml.Mantra))

@@ -19,7 +19,7 @@
  (name portfolio_of_ocaml)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends ocaml dune core bonsai ppx_let ppx_jane ppx_inline_test async_kernel bonsai_web bonsai_web_components virtual_dom ppx_css js_of_ocaml-ppx )
  (tags
   (topics "to describe" your project)))
 
